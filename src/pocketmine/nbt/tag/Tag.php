@@ -30,7 +30,7 @@ abstract class Tag extends \stdClass{
 
 	protected $value;
 
-	public function &getValue(){
+	public function getValue(){
 		return $this->value;
 	}
 
