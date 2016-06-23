@@ -35,6 +35,7 @@ use pocketmine\entity\Entity;
 use pocketmine\entity\FallingSand;
 use pocketmine\entity\FishingHook;
 use pocketmine\entity\Human;
+use pocketmine\entity\Horse;
 use pocketmine\entity\Item as DroppedItem;
 use pocketmine\entity\MinecartChest;
 use pocketmine\entity\MinecartHopper;
@@ -3114,6 +3115,7 @@ private function lookupAddress($address) {
 		Entity::registerEntity(MinecartChest::class);
 		Entity::registerEntity(MinecartHopper::class);
 		Entity::registerEntity(MinecartTNT::class);
+		Entity::registerEntity(Horse::class);
 
 		Entity::registerEntity(Human::class, true);
 	}
